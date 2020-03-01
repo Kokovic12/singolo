@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="singolo2.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <title>Singolo2</title>
+</head>    
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Portfolio</h1></div>
+            <div class="text-header">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</div>
+            <div class="items">
+                <input value="All" type="submit">
+                <input value="Web Design" type="submit">
+                <input value="Graphic Design" type="submit">
+                <input value="Artwork" type="submit">
+            </div>
+            <div class="picture">
+                <img class="monstro" src="./img/1.png" alt="Ship">
+                <img class="monstro" src="./img/2.png" alt="GreenKoloboc">
+                <img class="monstro" src="./img/3.png" alt="City">
+                <img class="monstro" src="./img/4.png" alt="Robot">
+                <img class="monstro" src="./img/5.png" alt="Bears">
+                <img class="monstro" src="./img/6.png" alt="Phone">
+                <img class="monstro" src="./img/7.png" alt="Aliens">
+                <img class="monstro" src="./img/8.png" alt="Chickens">
+                <img class="monstro" src="./img/9.png" alt="GreenMonster">
+                <img class="monstro" src="./img/10.png" alt="Letter">
+                <img class="monstro" src="./img/11.png" alt="WhiteMonster">
+                <img class="monstro" src="./img/12.png" alt="Iron">
+            </div>
+    </header>
+
+    <main class="main">
+        <div class="two">
+            <h2 class="section-heading"><p>About Us</p></h2>
+            <div class="section-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</div>
+            <div class="faces">
+
+                
+                <figure class="human1">
+                    <img class="footer" src="./img/human1.png" alt="Adam Jensen">
+                    <figcaption>
+                        <div class="heading"><h4>Adam Jensen</h4></div><br>
+                        <div class="text">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.
+                        <div class="icons-media">
+                            <img class="icon" src="./img/facebook.png" alt="facebook" class="facebook">
+                            <img class="icon" src="./img/google+.png" alt="google" class="google">
+                            <img class="icon" src="./img/twitter.png" alt="twitter" class="twitter">
+                            <img class="icon" src="./img/linkedin.png" alt="linkedin" class="linkedin">
+                        </div>
+                    </figcaption>
+                </figure>           
+
+
+                <figure class="human2">
+                    <img class="footer" src="./img/human2.png" alt="">
+                    <figcaption>
+                        <div class="heading"><h4>Desmond Miles</h4></div><br>
+                        <div class="text">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.
+                        <div class="icons-media">
+                            <img class="icon" src="./img/facebook.png" alt="facebook" class="facebook">
+                            <img class="icon" src="./img/google+.png" alt="google" class="google">
+                            <img class="icon" src="./img/twitter.png" alt="twitter" class="twitter">
+                            <img class="icon" src="./img/linkedin.png" alt="linkedin" class="linkedin">
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure class="human3">
+                    <img class="footer" src="./img/human3.png" alt="Scolara Visari">
+                    <figcaption>
+                        <div class="heading"><h4>Scolara Visari</h4></div><br>
+                        <div class="text">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.
+                        <div class="icons-media">
+                            <img class="icon" src="./img/facebook.png" alt="facebook" class="facebook">
+                            <img class="icon" src="./img/google+.png" alt="google" class="google">
+                            <img class="icon" src="./img/twitter.png" alt="twitter" class="twitter">
+                            <img class="icon" src="./img/linkedin.png" alt="linkedin" class="linkedin">
+                        </div>                    
+                    </figcaption>
+                </figure>
+
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
