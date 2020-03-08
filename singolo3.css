@@ -1,0 +1,107 @@
+html{
+    box-sizing: border-box;
+    max-width: 1020px;
+    max-height: 730px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.header{
+    width: 1020px;
+    height: 655px;
+    background-color: #f06c64;
+}
+
+.footer{
+    width: 1020px;
+    height: 80px;
+    background-color: #2d303a;
+}
+
+h1{
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 68px;
+}
+
+.container{
+    display: flex;
+    display: -webkit-box;
+    margin-left: 0px;  
+}
+
+.text{
+    width: 960px;
+    height: 57px;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 300px;
+    margin-top: 115px;
+    margin-left:-159px; 
+    text-align: left;   
+
+}
+
+
+
+.Copyright{
+    font-size: 12px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    margin-left: 53px;
+    margin-bottom: -40px;
+
+
+}
+
+.icons-media{
+    display: flex;
+    justify-content: space-between;
+    max-height: 200px;
+    max-width: 152px;
+    text-align: right; 
+    margin-left: 825px;  
+    
+
+}
+img.icon{    
+    display: flex;
+    margin-left: 1px;
+    margin-top: -6px;
+    
+}
+img.icon:hover{cursor: pointer;
+    background-color: khaki;
+    border-radius: 15px;
+}
+
+input{   
+    width: 619px;
+    height: 38px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #d6564f;
+    font-size: 12px;
+line-height: 22px;
+color: #f48c8f;
+font-family: "Lato";
+font-weight: 400px;
+text-align: left;
+margin-left: 40px;
+margin-top: 45px;
+margin-bottom: 0px;
+}
+
