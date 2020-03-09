@@ -135,16 +135,33 @@ h3{
 }
 
 p{
-    width: 300px;
+    width: 310px;
     height: 175px;
     font-size: 12px;
     line-height: 22px;
     color: #f0d8d9;
     font-family: "Lato";
-    font-weight: 400;
+    font-weight: 400px;
     text-align: left;
     margin-left: 18px;
     margin-top: 10px;
+    margin-bottom: 0;
+    
+}
 
+.items{
+width: 300px;
+height: 175px;
+font-size: 12px;
+line-height: 22px;
+color: #f0d8d9;
+font-family: "Lato";
+font-weight: 400;
+text-align: left;
+margin-left: 20px;
+margin-top: -70px;
+}
 
+img{
+    margin-right: 5px;
 }
