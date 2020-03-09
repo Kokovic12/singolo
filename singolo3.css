@@ -87,21 +87,64 @@ img.icon:hover{cursor: pointer;
     background-color: khaki;
     border-radius: 15px;
 }
+.main{
+    display: flex;
+    max-height: 300px;
+}
 
-input{   
+
+textarea{
+    display: flex;
+    
     width: 619px;
     height: 38px;
     border-radius: 5px;
     border: 0;
     background-color: #d6564f;
     font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 350px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 15px;
+    resize: none;
+}
+.last{
+    height: 200px;   
+    
+}
+
+.first{
+    margin-top: 45px;
+    font-size: 12px;
 line-height: 22px;
 color: #f48c8f;
 font-family: "Lato";
-font-weight: 400px;
+font-weight: 400;
 text-align: left;
-margin-left: 40px;
-margin-top: 45px;
-margin-bottom: 0px;
+}
+h3{
+    margin-top: 44px;
+    margin-left: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    margin-bottom: 0;
+
 }
 
+p{
+    width: 300px;
+    height: 175px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    margin-left: 18px;
+    margin-top: 10px;
+
+
+}
