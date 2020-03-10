@@ -14,6 +14,7 @@ header {
 .telefon {
     background-color: #f06c64;
     height: 600px;
+    margin: 0;
 }
 
 .container{
@@ -97,9 +98,9 @@ text-align: left;
     display: flex;
     flex-direction: row;
     margin-top: 0px;
+    margin-bottom: 0;
     justify-content: space-between;
 }
-
 
 
 .vertical {
@@ -117,16 +118,9 @@ text-align: left;
 }
 
 .horizont {
-    display:flex;
-    
+    display:flex;   
     
 }
-
-/*.phone2{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}*/
 
 button{
     background-color: #f06c64;
@@ -141,8 +135,9 @@ button{
 
 
 h3 {
-    margin: 0;
+    margin: 10px;
 }
+
 .two {
     width: 100%;
     max-width: 960px;
@@ -150,11 +145,15 @@ h3 {
 	margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 0;
 }
-.footer {
+
+.ter {
     background-color: #f2f2f2;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0;
+    
 }
 .section-heading {
     font-size: 30px;
@@ -162,6 +161,7 @@ h3 {
     font-weight: 900;
     color: #666d89;
     margin-bottom: 30px;
+    margin-top: 0px;
 }
 .section-text {
     font-size: 18px;
@@ -218,7 +218,7 @@ h3 {
 
 
 /*part2*/
-main{
+.part2{
     box-sizing: border-box;
     max-width: 1020px;
     max-height: 1600px;
@@ -232,17 +232,13 @@ main{
 .containe{
     display: flex;
     display: -webkit-box;
-
     margin-left: 0px;  
-
 }
 
-.heade {
-    
+.heade {    
     height: 870px;
     background-color: #2d303a;
 }
-
 
 h2{
     margin-left: 40px;
@@ -268,10 +264,8 @@ h2{
     display: flex;
     margin-left: 40px; 
     margin-bottom: 20px;
-    margin-top: 16px;
-    
+    margin-top: 16px;    
 }
-
 
 input{
     height: 22px;
@@ -287,31 +281,25 @@ input{
     margin-right: 10px;  
     cursor: pointer;
     outline: none;
-
-
 }
 
 input:hover{
     color: white;
     border-color: white;
-
 }
-
 
 button{
     width: 57px;
     height: 22px;
     border-radius: 5px;    
-    border: 1px solid #666d89;
-    
+    border: 1px solid #666d89;    
 }
 
 .picture {
     display: flex;
     flex-wrap: wrap;
    align-items: center;
-   margin-left: 40px;
-   
+   margin-left: 40px;   
 
 }
 .monstro{
@@ -319,12 +307,11 @@ button{
     margin-bottom: 1.24rem;
 }
 
-.main{
+.maini{
     display: flex;
     width: 1020px;
     height: 730px;
-    background-color: #f2f2f2;
-
+    background-color: #f2f2f2;    
 }
 
 .section-heading{
@@ -358,10 +345,8 @@ letter-spacing: unset;
     margin-left: 40px;
     margin-top: 38px;
     flex-direction: row;
-    width: 1020px;
-        
+    width: 1020px;        
 }
-
 
 figure{
     margin: 0;
@@ -370,9 +355,11 @@ figure{
     margin-top: 0.2rem;
     
 }
+
 figure:nth-child(2){
     margin-right: 1.27rem;
 }
+
 .heading{
 font-size: 18px;
 line-height: 18px;
@@ -413,7 +400,7 @@ h4{
     margin-top: 9px;
     
 }
-img.icon:hover{cursor: pointer;
+img.iconn:hover{cursor: pointer;
     background-color: khaki;
     border-radius: 15px;
 }
@@ -441,7 +428,7 @@ footer{
     background-color: #f06c64;
 }
 
-.footer{
+.pol{
     width: 1020px;
     height: 80px;
     background-color: #2d303a;
@@ -479,7 +466,6 @@ h5{
 
 }
 
-
 .Copyright{
     font-size: 12px;
     line-height: 30px;
@@ -489,26 +475,26 @@ h5{
     margin-left: 53px;
     margin-bottom: -40px;
 
-
 }
 
-.icons-media{
+.iconsu-medio{
     display: flex;
     justify-content: space-between;
     max-height: 200px;
     max-width: 152px;
     text-align: right; 
-    margin-left: 825px;  
-    
+    margin-left: 825px;     
 
 }
-img.icon{    
+
+img.iconh{    
     display: flex;
     margin-left: 1px;
     margin-top: -6px;
     
 }
-img.icon:hover{cursor: pointer;
+
+img.iconh:hover{cursor: pointer;
     background-color: khaki;
     border-radius: 15px;
 }
@@ -560,7 +546,7 @@ text-align: left;
 
 }
 
-p{
+.po{
     width: 310px;
     height: 175px;
     font-size: 12px;
@@ -575,7 +561,7 @@ p{
     
 }
 
-.itemso{
+.itemso {
 width: 300px;
 height: 175px;
 font-size: 12px;
