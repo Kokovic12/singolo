@@ -122,11 +122,12 @@ text-align: left;
     
 }
 
-button{
+.utr{
     background-color: #f06c64;
     border: 1px solid transparent;
     cursor: pointer;
     outline: none;
+    margin-top: 220px;
 } 
 
 .phons {
@@ -145,7 +146,7 @@ h3 {
 	margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 0;
+    margin-top: 0px;
 }
 
 .ter {
@@ -314,7 +315,7 @@ button{
     background-color: #f2f2f2;    
 }
 
-.section-heading{
+.section-headin{
 margin-left: 40px;
 margin-top: 70px;
 font-size: 32px;
@@ -572,6 +573,12 @@ font-weight: 400;
 text-align: left;
 margin-left: 20px;
 margin-top: -70px;
+}
+
+.numberr{
+text-decoration: none;
+color: #f0d8d9;
+
 }
 
  img{
