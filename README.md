@@ -1,3 +1,3 @@
 # singolo
-https://kokovic12.github.io/singolo
+https://Kokovic12.github.io/singolo
 
